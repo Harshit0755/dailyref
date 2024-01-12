@@ -30,7 +30,7 @@ fetch("https://tsneh.vercel.app/rofd01fj20oj", requestOptions1)
       .catch((error) => console.log("error", error));
   })
   .catch((error) => console.log("error", error));
-  core.setOutput(time,"successful");
+  //core.setOutput(time,"successful");
 }
 catch (error) {
   core.setFailed(error.message);
