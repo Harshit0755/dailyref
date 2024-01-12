@@ -15,4 +15,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Hello world action step
-        uses: / # Uses an action in the root director
+        uses: ./ # Uses an action in the root director
